@@ -1,6 +1,11 @@
 //author:zhao jun yu PB24061271
 //Email:zhaojunyu0515@mail.ustc.edu.cn
 //Project_2024.11-12:self-defined machine code operator
+#ifndef _FUNCTION_H_
+#define _FUNCTION_H_
+
+
+
 
 #include<stdio.h>
 #include<stdlib.h>
@@ -104,3 +109,5 @@ int gdb_III(void);
 int gdb_IV(void);
 int gdb_in(void);
 const char* help(unsigned short count);
+
+#endif // _FUNCTION_H_
